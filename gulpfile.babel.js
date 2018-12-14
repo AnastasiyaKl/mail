@@ -16,7 +16,7 @@ import colors   from 'colors';
 const $ = plugins();
 
 // Look for the --production flag
-const PRODUCTION = !!(yargs.argv.production);
+const PRODUCTION = !(yargs.argv.production);
 const EMAIL = yargs.argv.to;
 
 // Declar var so that both AWS and Litmus task can use it.

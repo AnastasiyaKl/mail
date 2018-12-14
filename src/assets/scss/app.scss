@@ -8,7 +8,7 @@
 }
 
 .header-logo{
-  background-image: url("/assets/img/header-bg.png");
+  background-image: url("assets/img/header-bg.png");
   /*position: relative;
   z-index: 2;
   margin: 0;
@@ -22,7 +22,7 @@ table.container{
 }
 
 table.container.bg-road{
-  background-image: url('/assets/img/full-road-header-mark.png')!important;
+  background-image: url('assets/img/full-road-header-mark.png')!important;
   background-repeat: no-repeat!important;
   background-position: 100% 0!important;
   background-color: #fff!important;
@@ -84,16 +84,36 @@ table.container.wrapper-bg{
 }
 
 .bg-logo-1{
-  background-image: url('/assets/img/logo1.png');
+  background-image: url('assets/img/logo1.png');
 }
 
 .bg-logo-2{
-  background-image: url('/assets/img/logo2.png');
+  background-image: url('assets/img/logo2.png');
 }
 
 .bg-logo-3{
-  background-image: url('/assets/img/logo3.png');
+  background-image: url('assets/img/logo3.png');
 
+}
+
+.search-img{
+  background-image: url('assets/img/search.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position: 20px;
+  td{
+    background-color: transparent;
+  }
+}
+
+.plus-img{
+  background-image: url('assets/img/plus.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 15px;
+  td{
+    background-color: transparent;
+  }
 }
 
 .button-action{
@@ -107,11 +127,11 @@ table.container.wrapper-bg{
 }
 
 .play-market-button{
-  background-image: url('/assets/img/google_play.png');
+  background-image: url('assets/img/google_play.png');
 }
 
 .app-store-button{
-  background-image: url('/assets/img/app_store.png');
+  background-image: url('assets/img/app_store.png');
 }
 
 .footer-2{
@@ -124,7 +144,7 @@ table.container.wrapper-bg{
 
 
 table.container.footer-1{
-  background-image: url('/assets/img/footer-bg.png');
+  background-image: url('assets/img/footer-bg.png');
   height: 95px;
   min-width: 576px;
   th{
